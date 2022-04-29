@@ -13,9 +13,12 @@ class Home extends StatelessWidget {
         body: SingleChildScrollView(
           child: Column(
             children: [
-              Text(
-                'Home Page',
-                style: TextStyle(color: Theme.of(context).primaryColor),
+              Center(
+                child: Text(
+                  'Home Page',
+                  style: TextStyle(
+                      color: Theme.of(context).primaryColor, fontSize: 30),
+                ),
               )
             ],
           ),
